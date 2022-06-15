@@ -69,9 +69,9 @@ const renderMolecules = () => {
     .map((molecule) => {
       return `
         <li data-id='${molecule.id}'>
-
-            ${molecule.name}
-            ${molecule.description}
+            <p>${molecule.name.toUpperCase()} - Description: ${
+        molecule.description
+      }</p>
         </li>
       `;
     })

@@ -1,0 +1,70 @@
+body {
+  background-image: url(./food.webp);
+  background-repeat: repeat;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: rgb(202, 123, 19);
+}
+main {
+  display: flex;
+}
+section {
+  flex: 1;
+  border: 1px solid rgb(202, 123, 19);
+}
+
+#title {
+  border-radius: 10px;
+  padding: 10px 10px;
+  background-color: rgb(202, 123, 19);
+  text-align: center;
+  color: antiquewhite;
+}
+
+ul {
+  text-align: center;
+  margin-top: 40px;
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+#flavors-list > li {
+  border-radius: 10px;
+  flex-grow: 1;
+  color: rgb(202, 123, 19);
+  text-align: center;
+  background-color: antiquewhite;
+}
+section > #molecules-list {
+  color: rgb(202, 123, 19);
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+button {
+  background-color: rgb(202, 123, 19);
+  border: none;
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+  cursor: pointer;
+}
